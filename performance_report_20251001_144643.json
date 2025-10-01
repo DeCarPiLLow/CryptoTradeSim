@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "timestamp": "2025-10-01T14:47:45.926981",
+    "report_type": "performance_analysis"
+  },
+  "latency_metrics": {
+    "data_processing_ms": {
+      "mean": 0,
+      "p50": 0,
+      "p95": 0,
+      "p99": 0,
+      "min": 0,
+      "max": 0
+    },
+    "ui_update_ms": {
+      "mean": 79.98594098724425,
+      "p50": 75.96929999999702,
+      "p95": 113.5037001222372,
+      "p99": 123.33799991756678,
+      "min": 55.44820008799434,
+      "max": 123.33799991756678
+    },
+    "end_to_end_loop_ms": {
+      "mean": 0,
+      "p50": 0,
+      "p95": 0,
+      "p99": 0,
+      "min": 0,
+      "max": 0
+    }
+  },
+  "sample_counts": {
+    "processing_samples": 0,
+    "ui_samples": 100,
+    "e2e_samples": 0
+  },
+  "memory_profile": {
+    "current": {
+      "rss_mb": 205.7734375,
+      "vms_mb": 669.65234375,
+      "percent": 1.2766066758304075,
+      "available_mb": 2094.0234375
+    },
+    "history_samples": 57
+  },
+  "thread_info": {
+    "current": {
+      "active_threads": 4,
+      "thread_names": [
+        "MainThread",
+        "Thread-1",
+        "Thread-2",
+        "ScriptRunner.scriptThread"
+      ],
+      "daemon_threads": 2,
+      "main_thread_alive": true
+    },
+    "history_samples": 57
+  }
+}
